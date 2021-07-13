@@ -24,3 +24,12 @@
     border: 2px solid red !important;
     color: red !important;
 }
+
+input{
+    padding: 3px 10px !important;
+    font: 400 18.3333px Arial !important;
+}
+
+table{
+    font-size: 15px;
+}
