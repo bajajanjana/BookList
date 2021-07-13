@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+    integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- font awesome link -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+  <title>BOOK List</title>
+</head>
+
+<body style="background-color:teal;"">
+  <div class=" row">
+  <div class="container m-auto p-5" style="max-width: 700px;">
+    <!-- <div class="card m-5 p-5" style="margin-top:500px;""> -->
+    <!-- <div class=" card-content"> -->
+    <div id="form">
+      <h1 class="card-title display-5 text-center mt-5">MY BOOK List</h1>
+      <div class="form-group">
+        <input type="text" class="form-control" id="alert">
+      </div>
+      <div class="form-group">
+        <label for="bookname" style="font-size: large;">Book Name:</label>
+        <input type="text" class="form-control" id="bookname">
+      </div>
+      <div class="form-group">
+        <label for="authorname" style="font-size: large;">Author Name:</label>
+        <input type="text" class="form-control" id="authorname">
+      </div>
+      <div class="form-group">
+        <label for="ISBN" style="font-size: large;">ISBN:</label>
+        <input type="text" class="form-control" id="ISBN">
+      </div>
+      <input type="submit" class="form-control mt-3" id="mybutton" value="submit">
+    </div>
+    <!-- </div> -->
+    <!-- </div> -->
+    <table class="table table-dark mt-5">
+      <thead>
+        <tr style="font-size:medium;">
+          <th scope="col">#</th>
+          <th scope="col">Title</th>
+          <th scope="col">Author</th>
+          <th scope="col">ISBN</th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody id="book-list"></tbody>
+    </table>
+  </div>
+  </div>
+  <script src="app.js"></script>
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script> -->
+</body>
+
+</html>

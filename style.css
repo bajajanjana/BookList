@@ -1,0 +1,26 @@
+.card-title{
+    font-size: 4rem;
+    font-family:cursive;
+    font-weight: bold;
+}
+
+#mybutton{
+    background-color:#212529;
+    color: white;
+    font-size: large;
+}
+#alert{
+    display: none;
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+}
+.green {
+    border: 2px solid green !important;
+    color: green !important;
+  }
+
+.red {
+    border: 2px solid red !important;
+    color: red !important;
+}
