@@ -4,6 +4,9 @@
     font-weight: bold;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 #mybutton{
     background-color:#212529;
     color: white;
@@ -16,13 +19,15 @@
     color: black;
 }
 .green {
-    border: 2px solid green !important;
-    color: green !important;
+    /* border: 2px solid green !important; */
+    background-color: green!important;
+    color: white !important;
   }
 
 .red {
-    border: 2px solid red !important;
-    color: red !important;
+    /* border: 2px solid red !important; */
+    background-color: rgba(255,0,0,0.7)!important;
+    color: white !important;
 }
 
 input{
